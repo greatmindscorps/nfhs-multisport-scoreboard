@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>NFHS Multi-Sport Scoreboard</title>
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      -webkit-text-size-adjust: 100%;
+      width: 100vw;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      max-height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+    header, footer {
+      flex: 0 0 auto;
+      text-align: center;
+      padding: 0.5em 1em;
+      background: #111;
+      font-weight: bold;
+      font-size: 1.2em;
+      letter-spacing: 0.05em;
+    }
+    main {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 0;
+      min-width: 0;
+      overflow: hidden;
+    }
+    #scoreboard {
+      background: #333;
+      border-radius: 1em;
+      padding: 1.5em;
+      box-sizing: border-box;
+      font-size: 1.2em;
+      width: 100%;
+      max-width: 700px;
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      text-align: center;
+      word-break: break-word;
+    }
+    @media (max-width: 600px) {
+      #scoreboard {
+        font-size: 1em;
+        padding: 0.5em;
+      }
+      header, footer {
+        font-size: 1em;
+        padding: 0.3em 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>NFHS Multi-Sport Scoreboard</header>
+  <main>
+    <div id="scoreboard">Loading scoreboard...</div>
+  </main>
+  <footer>&copy; 2025 Your Organization</footer>
+  <script src="scoreboard.js"></script>
+</body>
+</html>
+

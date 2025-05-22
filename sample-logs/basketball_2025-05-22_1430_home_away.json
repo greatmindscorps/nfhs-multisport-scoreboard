@@ -1,0 +1,13 @@
+{
+  "sport": "basketball",
+  "date": "2025-05-22",
+  "time": "14:30",
+  "home_team": "Home",
+  "away_team": "Away",
+  "home_score": 58,
+  "away_score": 54,
+  "periods": 4,
+  "game_id": "basketball_20250522_1430_home_away",
+  "created_by": "Cardputer_001"
+}
+
